@@ -1,0 +1,12 @@
+<actor name="bot" radius_bs="2.0" pos_bs="0.0 1.0 0.0">
+	<skeleton filename="bot.csf"/>
+	<mesh filename="bot.CMF"/>
+	<texture filename="rocketl.jpg"/>
+	<texture filename="ranger.jpg"/>
+	<texture filename="ranger_h.jpg"/>
+	<animation name="idle" filename="idle.CAF"/>
+	<animation name="run" filename="run.CAF"/>
+	<animation name="hit" filename="hit.CAF"/>
+	<animation name="die" filename="die.CAF"/>
+	<animation name="shoot" filename="shoot.CAF"/>
+</actor>

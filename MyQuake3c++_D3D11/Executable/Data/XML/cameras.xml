@@ -1,0 +1,5 @@
+<CameraManager>
+	<SphericalCameraController name="debug_esferica" posx="0" posy="0" posz="0" zoom="20"/>
+	<FPSCameraController name="debug_fps" posx="0" posy="2" posz="0"/>
+	<FPSCameraController name="debug_fps_2" posx="20" posy="10" posz="0"/>
+<CameraManager/>

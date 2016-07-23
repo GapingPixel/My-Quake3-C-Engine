@@ -1,0 +1,20 @@
+<SoundManager>
+
+	<Sound action="noAmmo" path="./Data/SOUNDS/Weapons/noammo.wav" />
+	<Sound action="changeGun" path="./Data/SOUNDS/Weapons/changegun.wav" />
+	<Sound action="machineGun" path="./Data/SOUNDS/Weapons/MachineGun/machgf1b.wav" />
+	<Sound action="rocketFly" path="./Data/SOUNDS/Weapons/Rocket/rocklf1a.wav" />
+	<Sound action="rocketImpact" path="./Data/SOUNDS/Weapons/Rocket/rocklx1a.wav" />
+	<Sound action="shotGun" path="./Data/SOUNDS/Weapons/ShotGun/sshotf1b.wav" />
+	<Sound action="toFallDown" path="./Data/SOUNDS/Player/fall1.wav" />
+	<Sound action="getLife" path="./Data/SOUNDS/Items/ar1_pkup.wav" />
+	<Sound action="respawnItem" path="./Data/SOUNDS/Items/respawn1.wav" />
+	<Sound action="getGun" path="./Data/SOUNDS/Items/w_pkup.wav" />
+	<Sound action="fire" path="./Data/SOUNDS/Ambient/fireloud.wav" />
+	<Sound action="pain25" path="./Data/SOUNDS/Player/pain25_1.wav" />
+	<Sound action="pain50" path="./Data/SOUNDS/Player/pain50_1.wav" />
+	<Sound action="pain75" path="./Data/SOUNDS/Player/pain75_1.wav" />
+	<Sound action="pain100" path="./Data/SOUNDS/Player/pain100_1.wav" />
+	<Sound action="intro" path="./Data/SOUNDS/Intro/fla22k_01_intro.wav" />
+	
+<SoundManager/>

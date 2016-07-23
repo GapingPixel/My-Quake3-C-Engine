@@ -1,0 +1,8 @@
+<Actors>
+	<CoreActor name="bot" path="data/models/bot/"/>
+	<Actor core="bot" pos="68.87 1.25 6.74"/>
+	<!--
+	<Actor core="bot" pos="42.71 7.22 1.85"/>
+	<Actor core="bot" pos="65.97 7.22 18.89"/>
+	-->
+<Actors/>

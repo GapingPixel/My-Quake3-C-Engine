@@ -1,0 +1,24 @@
+<ItemManager>
+
+	<SHOTGUN posX="69" posY="7.1" posZ="20.9" timer="5"/>
+	<ROCKETL posX="34" posY="1.5" posZ="-5" timer="5"/>
+	<ROCKETL posX="8.7" posY="7.2" posZ="-5.9" timer="5"/>
+	<MACHINEGUN posX="-4" posY="1.6" posZ="14" timer="5"/>
+	
+	<LIFE posX="34" posY="3" posZ="8" timer="5"/>
+	<LIFE posX="36" posY="3" posZ="8" timer="5"/>
+	<LIFE posX="38" posY="3" posZ="8" timer="5"/>
+	<LIFE posX="40" posY="3" posZ="8" timer="5"/>
+	<LIFE posX="42" posY="3" posZ="8" timer="5"/>	
+
+	<LIFE posX="-9" posY="1.5" posZ="-4" timer="5"/>
+	<LIFE posX="-9" posY="1.5" posZ="-2" timer="5"/>
+	<LIFE posX="-9" posY="1.5" posZ="0" timer="5"/>
+	<LIFE posX="-9" posY="1.5" posZ="2" timer="5"/>
+	<LIFE posX="-9" posY="1.5" posZ="4" timer="5"/>
+
+	<AMMOSHOTGUN posX="71" posY="1" posZ="10" timer="5"/>
+	<AMMOMACHINEGUN posX="71" posY="1" posZ="14" timer="5"/>
+	<AMMOROCKET posX="71" posY="1" posZ="18" timer="5"/>
+
+<ItemManager/>

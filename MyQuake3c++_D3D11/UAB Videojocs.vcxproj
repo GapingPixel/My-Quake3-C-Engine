@@ -1,0 +1,181 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project DefaultTargets="Build" ToolsVersion="14.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup Label="ProjectConfigurations">
+    <ProjectConfiguration Include="Debug|Win32">
+      <Configuration>Debug</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+    <ProjectConfiguration Include="Release|Win32">
+      <Configuration>Release</Configuration>
+      <Platform>Win32</Platform>
+    </ProjectConfiguration>
+  </ItemGroup>
+  <PropertyGroup Label="Globals">
+    <ProjectGuid>{3A68081D-E8F9-4523-9436-530DE9E5530C}</ProjectGuid>
+    <Keyword>Win32Proj</Keyword>
+    <ProjectName>MyQuake3c++_D3D11</ProjectName>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.Default.props" />
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="Configuration">
+    <ConfigurationType>Application</ConfigurationType>
+    <PlatformToolset>v140</PlatformToolset>
+    <CharacterSet>MultiByte</CharacterSet>
+  </PropertyGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.props" />
+  <ImportGroup Label="ExtensionSettings">
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <ImportGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'" Label="PropertySheets">
+    <Import Project="$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props" Condition="exists('$(UserRootDir)\Microsoft.Cpp.$(Platform).user.props')" Label="LocalAppDataPlatform" />
+    <Import Project="$(VCTargetsPath)Microsoft.CPP.UpgradeFromVC71.props" />
+  </ImportGroup>
+  <PropertyGroup Label="UserMacros" />
+  <PropertyGroup>
+    <_ProjectFileVersion>14.0.23107.0</_ProjectFileVersion>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <OutDir>./Executable\</OutDir>
+    <IntDir>./Executable/Debug\</IntDir>
+    <LinkIncremental>true</LinkIncremental>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <OutDir>./Executable\</OutDir>
+    <IntDir>./Executable/Release\</IntDir>
+    <LinkIncremental>false</LinkIncremental>
+  </PropertyGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Debug|Win32'">
+    <ClCompile>
+      <Optimization>Disabled</Optimization>
+      <AdditionalIncludeDirectories>.\ThirdParty\d3d\Include;.\ThirdParty\coldet\ColDetDLL;.\ThirdParty\expat;C:\Archivos de programa\Microsoft DirectX SDK (April 2007)\Include;.\ThirdParty\OpenAL\include;.\ThirdParty\cal3d\;.\ThirdParty\;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;_DEBUG;_WINDOWS;_CRT_SECURE_NO_DEPRECATE;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <MinimalRebuild>true</MinimalRebuild>
+      <BasicRuntimeChecks>Default</BasicRuntimeChecks>
+      <RuntimeLibrary>MultiThreadedDebug</RuntimeLibrary>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>EditAndContinue</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dxof.lib;dxguid.lib;d3dx9d.lib;d3d9.lib;winmm.lib;dinput8.lib;libexpat.lib;coldet.lib;openal32.lib;alut.lib;cal3d_d.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)UAB VideojocsD.exe</OutputFile>
+      <AdditionalLibraryDirectories>./ThirdParty/expat/;./ThirdParty/coldet/ColDetDLL;./ThirdParty/d3d/Lib/x86;.\ThirdParty\OpenAL;c:\Archivos de programa\Microsoft DirectX SDK (April 2007)\Lib\x86;.\ThirdParty\cal3d\debug;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)UAB VideojocsD.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemDefinitionGroup Condition="'$(Configuration)|$(Platform)'=='Release|Win32'">
+    <ClCompile>
+      <Optimization>MaxSpeed</Optimization>
+      <InlineFunctionExpansion>OnlyExplicitInline</InlineFunctionExpansion>
+      <OmitFramePointers>true</OmitFramePointers>
+      <AdditionalIncludeDirectories>.\ThirdParty\d3d\Include;.\ThirdParty\coldet\ColDetDLL;.\ThirdParty\expat;C:\Archivos de programa\Microsoft DirectX SDK (April 2007)\Include;.\ThirdParty\OpenAL\include;.\ThirdParty\cal3d\;.\ThirdParty;%(AdditionalIncludeDirectories)</AdditionalIncludeDirectories>
+      <PreprocessorDefinitions>WIN32;NDEBUG;_WINDOWS;%(PreprocessorDefinitions)</PreprocessorDefinitions>
+      <StringPooling>true</StringPooling>
+      <RuntimeLibrary>MultiThreaded</RuntimeLibrary>
+      <BufferSecurityCheck>false</BufferSecurityCheck>
+      <FunctionLevelLinking>true</FunctionLevelLinking>
+      <PrecompiledHeader />
+      <WarningLevel>Level3</WarningLevel>
+      <DebugInformationFormat>ProgramDatabase</DebugInformationFormat>
+    </ClCompile>
+    <Link>
+      <AdditionalOptions>/IGNORE:4089 %(AdditionalOptions)</AdditionalOptions>
+      <AdditionalDependencies>d3dxof.lib;dxguid.lib;d3dx9d.lib;d3d9.lib;winmm.lib;dinput8.lib;libexpat.lib;coldet.lib;cal3d.lib;openal32.lib;alut.lib;%(AdditionalDependencies)</AdditionalDependencies>
+      <OutputFile>$(OutDir)UAB Videojocs.exe</OutputFile>
+      <AdditionalLibraryDirectories>./ThirdParty/expat/;./ThirdParty/coldet/ColDetDLL;./ThirdParty/d3d/Lib/x86;.\ThirdParty\OpenAL;c:\Archivos de programa\Microsoft DirectX SDK (April 2007)\Lib\x86;.\ThirdParty\cal3d\release;%(AdditionalLibraryDirectories)</AdditionalLibraryDirectories>
+      <GenerateDebugInformation>true</GenerateDebugInformation>
+      <ProgramDatabaseFile>$(OutDir)UAB Videojocs.pdb</ProgramDatabaseFile>
+      <SubSystem>Windows</SubSystem>
+      <OptimizeReferences>true</OptimizeReferences>
+      <EnableCOMDATFolding>true</EnableCOMDATFolding>
+      <TargetMachine>MachineX86</TargetMachine>
+    </Link>
+  </ItemDefinitionGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\ApplicationDX.cpp" />
+    <ClCompile Include="Source\ASEObject.cpp" />
+    <ClCompile Include="Source\BillBoard.cpp" />
+    <ClCompile Include="Source\BillBoardAnimation.cpp" />
+    <ClCompile Include="Source\BillBoardManager.cpp" />
+    <ClCompile Include="Source\Bot.cpp" />
+    <ClCompile Include="Source\BotManager.cpp" />
+    <ClCompile Include="Source\Cal3DActorManager.cpp" />
+    <ClCompile Include="Source\Cal3DCoreActor.cpp" />
+    <ClCompile Include="Source\Cal3DInstanceActor.cpp" />
+    <ClCompile Include="Source\Camera.cpp" />
+    <ClCompile Include="Source\CameraEsfera.cpp" />
+    <ClCompile Include="Source\CameraFPShooter.cpp" />
+    <ClCompile Include="Source\CameraManager.cpp" />
+    <ClCompile Include="Source\CameraThPShooter.cpp" />
+    <ClCompile Include="Source\CollisionManager.cpp" />
+    <ClCompile Include="Source\DebugPrintText2D.cpp" />
+    <ClCompile Include="Source\DebugRender.cpp" />
+    <ClCompile Include="Source\Frustum.cpp" />
+    <ClCompile Include="Source\Gui.cpp" />
+    <ClCompile Include="Source\InputManager.cpp" />
+    <ClCompile Include="Source\ItemManager.cpp" />
+    <ClCompile Include="Source\KeyboardInput.cpp" />
+    <ClCompile Include="Source\MouseInput.cpp" />
+    <ClCompile Include="Source\Player.cpp" />
+    <ClCompile Include="Source\Rebirth.cpp" />
+    <ClCompile Include="Source\Scenary.cpp" />
+    <ClCompile Include="Source\SoundManager.cpp" />
+    <ClCompile Include="Source\text.cpp" />
+    <ClCompile Include="Source\TextureManager.cpp" />
+    <ClCompile Include="Source\Timer.cpp" />
+    <ClCompile Include="Source\UAB Videojocs.cpp" />
+    <ClCompile Include="Source\WaypointsTrack.cpp" />
+    <ClCompile Include="ThirdParty\expat\XMLParser.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\ApplicationDX.h" />
+    <ClInclude Include="Source\ASEObject.h" />
+    <ClInclude Include="Source\BillBoard.h" />
+    <ClInclude Include="Source\BillBoardAnimation.h" />
+    <ClInclude Include="Source\BillBoardManager.h" />
+    <ClInclude Include="Source\Bot.h" />
+    <ClInclude Include="Source\BotManager.h" />
+    <ClInclude Include="Source\Cal3DActorManager.h" />
+    <ClInclude Include="Source\Cal3DCoreActor.h" />
+    <ClInclude Include="Source\Cal3DInstanceActor.h" />
+    <ClInclude Include="Source\Camera.h" />
+    <ClInclude Include="Source\CameraEsfera.h" />
+    <ClInclude Include="Source\CameraFPShooter.h" />
+    <ClInclude Include="Source\CameraManager.h" />
+    <ClInclude Include="Source\CameraThPShooter.h" />
+    <ClInclude Include="Source\CollisionManager.h" />
+    <ClInclude Include="Source\DebugPrintText2D.h" />
+    <ClInclude Include="Source\DebugRender.h" />
+    <ClInclude Include="Source\defines.h" />
+    <ClInclude Include="Source\Frustum.h" />
+    <ClInclude Include="Source\Gui.h" />
+    <ClInclude Include="Source\InputManager.h" />
+    <ClInclude Include="Source\ItemManager.h" />
+    <ClInclude Include="Source\KeyboardInput.h" />
+    <ClInclude Include="Source\MouseInput.h" />
+    <ClInclude Include="Source\Player.h" />
+    <ClInclude Include="Source\Rebirth.h" />
+    <ClInclude Include="Source\Scenary.h" />
+    <ClInclude Include="Source\SoundManager.h" />
+    <ClInclude Include="Source\text.h" />
+    <ClInclude Include="Source\TextureManager.h" />
+    <ClInclude Include="Source\Timer.h" />
+    <ClInclude Include="Source\WaypointsTrack.h" />
+    <ClInclude Include="ThirdParty\expat\expat.h" />
+    <ClInclude Include="ThirdParty\expat\XMLParser.h" />
+  </ItemGroup>
+  <Import Project="$(VCTargetsPath)\Microsoft.Cpp.targets" />
+  <ImportGroup Label="ExtensionTargets">
+  </ImportGroup>
+</Project>

@@ -1,0 +1,268 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Timer">
+      <UniqueIdentifier>{bd3dfaeb-1049-4918-ad41-6984678e2d6f}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugPrintText2D">
+      <UniqueIdentifier>{a156daef-a371-4cb5-a5b4-481d61119885}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="DebugRender">
+      <UniqueIdentifier>{19ef7c19-a8e7-4b12-962f-4e1510e625f3}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input">
+      <UniqueIdentifier>{4a5e7694-d885-4bea-a20e-92b2a659a22b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Mouse">
+      <UniqueIdentifier>{cdd2afcf-9db4-49bd-b2e8-467e5ceee85b}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Input\Keyboard">
+      <UniqueIdentifier>{9596ef16-6a62-49b1-863d-5b776ad39180}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras">
+      <UniqueIdentifier>{b21ef3e3-94f8-4aeb-8c33-8f406795d1d6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Cameras\TypeCameras">
+      <UniqueIdentifier>{2bb80f76-aa73-4376-a720-e608c2df3e60}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ParserFile">
+      <UniqueIdentifier>{c3c712a6-2328-4f58-bf4e-45b0bd9fef46}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ASEObject">
+      <UniqueIdentifier>{18000c06-270e-4fd1-90bf-2cdd520f58bf}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="CollisionManager">
+      <UniqueIdentifier>{85ad056f-0b86-4ec4-88a0-391fe2639cd6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Player">
+      <UniqueIdentifier>{8aa547d2-004e-4e06-9c7a-96adc64249d2}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="GUI">
+      <UniqueIdentifier>{f5d4520c-f43d-4c77-ba2b-98e0e2fc6066}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="ItemManager">
+      <UniqueIdentifier>{09c4578a-ed1f-4a63-b8eb-dc964bfafc8d}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Scenary">
+      <UniqueIdentifier>{6015e3dd-8fad-421d-874f-06d23e1835f4}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="SoundManager">
+      <UniqueIdentifier>{c9987722-8ff4-4cd7-ae34-3cf842f39ec6}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="BillBoardManager">
+      <UniqueIdentifier>{183ad8f2-81ba-461e-b805-fc6fa6a9e586}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Logic">
+      <UniqueIdentifier>{06d17a04-89c4-47f1-b7ec-bb69becc68d7}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Bot">
+      <UniqueIdentifier>{c5a779e3-f431-4cda-9cba-8b88f3989831}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Actors">
+      <UniqueIdentifier>{3cf68719-d464-4567-b9cf-ff44c9b804a0}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="Source\Timer.cpp">
+      <Filter>Timer</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugPrintText2D.cpp">
+      <Filter>DebugPrintText2D</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\DebugRender.cpp">
+      <Filter>DebugRender</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\InputManager.cpp">
+      <Filter>Input</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\MouseInput.cpp">
+      <Filter>Input\Mouse</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\KeyboardInput.cpp">
+      <Filter>Input\Keyboard</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Camera.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraManager.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Frustum.cpp">
+      <Filter>Cameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraEsfera.cpp">
+      <Filter>Cameras\TypeCameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraFPShooter.cpp">
+      <Filter>Cameras\TypeCameras</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CameraThPShooter.cpp">
+      <Filter>Cameras\TypeCameras</Filter>
+    </ClCompile>
+    <ClCompile Include="ThirdParty\expat\XMLParser.cpp">
+      <Filter>ParserFile</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ASEObject.cpp">
+      <Filter>ASEObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\text.cpp">
+      <Filter>ASEObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\TextureManager.cpp">
+      <Filter>ASEObject</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\CollisionManager.cpp">
+      <Filter>CollisionManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Player.cpp">
+      <Filter>Player</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Gui.cpp">
+      <Filter>GUI</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ItemManager.cpp">
+      <Filter>ItemManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Scenary.cpp">
+      <Filter>Scenary</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\SoundManager.cpp">
+      <Filter>SoundManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BillBoard.cpp">
+      <Filter>BillBoardManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BillBoardAnimation.cpp">
+      <Filter>BillBoardManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BillBoardManager.cpp">
+      <Filter>BillBoardManager</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Rebirth.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\WaypointsTrack.cpp">
+      <Filter>Logic</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Bot.cpp">
+      <Filter>Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\BotManager.cpp">
+      <Filter>Bot</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cal3DActorManager.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cal3DCoreActor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\Cal3DInstanceActor.cpp">
+      <Filter>Actors</Filter>
+    </ClCompile>
+    <ClCompile Include="Source\ApplicationDX.cpp" />
+    <ClCompile Include="Source\UAB Videojocs.cpp" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="Source\Timer.h">
+      <Filter>Timer</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugPrintText2D.h">
+      <Filter>DebugPrintText2D</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\DebugRender.h">
+      <Filter>DebugRender</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\InputManager.h">
+      <Filter>Input</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\MouseInput.h">
+      <Filter>Input\Mouse</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\KeyboardInput.h">
+      <Filter>Input\Keyboard</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Camera.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraManager.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Frustum.h">
+      <Filter>Cameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraEsfera.h">
+      <Filter>Cameras\TypeCameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraFPShooter.h">
+      <Filter>Cameras\TypeCameras</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CameraThPShooter.h">
+      <Filter>Cameras\TypeCameras</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\expat\expat.h">
+      <Filter>ParserFile</Filter>
+    </ClInclude>
+    <ClInclude Include="ThirdParty\expat\XMLParser.h">
+      <Filter>ParserFile</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ASEObject.h">
+      <Filter>ASEObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\text.h">
+      <Filter>ASEObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\TextureManager.h">
+      <Filter>ASEObject</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\CollisionManager.h">
+      <Filter>CollisionManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Player.h">
+      <Filter>Player</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Gui.h">
+      <Filter>GUI</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ItemManager.h">
+      <Filter>ItemManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Scenary.h">
+      <Filter>Scenary</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\SoundManager.h">
+      <Filter>SoundManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BillBoard.h">
+      <Filter>BillBoardManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BillBoardAnimation.h">
+      <Filter>BillBoardManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BillBoardManager.h">
+      <Filter>BillBoardManager</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Rebirth.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\WaypointsTrack.h">
+      <Filter>Logic</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Bot.h">
+      <Filter>Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\BotManager.h">
+      <Filter>Bot</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cal3DActorManager.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cal3DCoreActor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\Cal3DInstanceActor.h">
+      <Filter>Actors</Filter>
+    </ClInclude>
+    <ClInclude Include="Source\ApplicationDX.h" />
+    <ClInclude Include="Source\defines.h" />
+  </ItemGroup>
+</Project>

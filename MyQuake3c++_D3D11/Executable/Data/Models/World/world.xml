@@ -1,0 +1,33 @@
+<world num_rooms="5">
+	<rooms>
+		<room id="0" file="room0.ASE"/>		
+		<room id="1" file="room1.ASE"/>
+		<room id="2" file="room2.ASE"/>
+		<room id="3" file="room3.ASE"/>
+		<room id="4" file="room4.ASE"/>
+	</rooms>
+	<gates room_id="0">
+		<gate room="1"/>
+		<gate room="3"/>
+		<gate room="4"/>
+	</gates>
+	<gates room_id="1">
+		<gate room="0"/>
+		<gate room="2"/>
+		<gate room="3"/>
+	</gates>
+	<gates room_id="2">
+		<gate room="1"/>
+		<gate room="3"/>
+	</gates>
+	<gates room_id="3">
+		<gate room="0"/>
+		<gate room="1"/>
+		<gate room="2"/>		
+		<gate room="4"/>
+	</gates>
+	<gates room_id="4">
+		<gate room="3"/>
+		<gate room="0"/>
+	</gates>
+</world>

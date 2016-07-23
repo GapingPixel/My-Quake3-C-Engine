@@ -1,0 +1,7 @@
+<BillBoardManager>
+
+	<BillBoardFire posX="14.8" posY="2.2" posZ="-22" sizeX="2" sizeY="2" frameStart="0"/>
+	<BillBoardFire posX="13.7" posY="2.2" posZ="-21" sizeX="2" sizeY="2" frameStart="4"/>
+	<BillBoardFire posX="73" posY="1.9" posZ="-10.9" sizeX="2" sizeY="2" frameStart="4"/>
+	
+<ItemManager/>
