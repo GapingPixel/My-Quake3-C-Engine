@@ -2,7 +2,7 @@
 A 3D engine  inspired on the Quake 3 ID Engine. (WIP)
 Based on the UAB engine.
 
-Directx11 64 Bits
+Full c++, Directx11 64 Bits
 
 External Libraries in use:
 
